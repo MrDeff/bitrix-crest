@@ -1,13 +1,12 @@
-** Портация бибилиотеки crest для Bitrix24
+Портация бибилиотеки crest для Bitrix24
 ===========
 
-**Использование
+Пример вызова:
 
-```
-from b24rest import BitrixCrest
-bx = BitrixCrest()
-bx.call('telephony.externalcall.hide', {
-    'CALL_ID': '',
-    'USER_ID': ',
-})
-```
+    from b24rest import BitrixCrest
+    bx = BitrixCrest()
+    bx.call('telephony.externalcall.hide', {
+        'CALL_ID': '',
+        'USER_ID': ',
+    })
+
