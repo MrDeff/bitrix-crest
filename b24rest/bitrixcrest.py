@@ -1,7 +1,7 @@
 from flask import request
 import json
 import requests
-from bitrix_crest import settings
+from . import settings
 
 class BitrixCrest:
     BATCH_COUNT = 50  # count   batch    1    query
